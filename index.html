@@ -1,0 +1,316 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap eCommerce Page Template</title>
+    <!-- Bootstrap -->
+    <link href="css/bootstrap-4.4.1.css" rel="stylesheet">
+  </head>
+  <body>
+	  
+	  <!-- Menú de navegación --> 
+    <nav class="navbar navbar-expand-lg navbar-dark bg-info">
+      <div class="container">
+        <a class="navbar-brand" href="#">Animal World</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav mr-auto">
+            <li class="nav-item active">
+              <a class="nav-link" href="index.html">Home <span class="sr-only">current)</span></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="https://dorisvall.wixsite.com/animalworld">Sitio completo</a>
+            </li>
+          </ul>
+          <form class="form-inline my-2 my-lg-0">
+            <input class="form-control mr-sm-2" type="search" placeholder="Buscar" aria-label="Buscar">
+            <button class="btn btn-outline-light my-2 my-sm-0" type="submit">Buscar</button>
+          </form>
+        </div>
+      </div>
+    </nav>
+	  
+	  <!-- Carrusel --> 
+    <div class="container mt-3">
+      <div class="row">
+        <div class="col-12">
+          <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+            <ol class="carousel-indicators">
+              <li data-target="#carouselExampleControls" data-slide-to="0" class="active"></li>
+              <li data-target="#carouselExampleControls" data-slide-to="1"></li>
+              <li data-target="#carouselExampleControls" data-slide-to="2"></li>
+			  <li data-target="#carouselExampleControls" data-slide-to="3"></li>
+            </ol>
+            <div class="carousel-inner">
+              <div class="carousel-item active col-lg-12">
+                <img class="d-block w-100" src="images/3334a58f684048fd18f4409b1f80731c.jpg" alt="First slide">
+                <div class="carousel-caption d-none d-md-block">
+                  <h5>PRODUCTOS PARA GATOS</h5>
+                  <p>Alimentos, juguetes, cajas de arena, castillos y herramientas</p>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <img class="d-block w-100" src="images/perros.jpg" alt="Second slide">
+                <div class="carousel-caption d-none d-md-block">
+                  <h5>PRODUCTOS PARA PERROS</h5>
+                  <p>Alimentos, accesorios, juguetes y herramientas</p>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <img class="d-block w-100" src="images/aves-848x477x80xX (2).jpg" alt="Third slide">
+                <div class="carousel-caption d-none d-md-block">
+                  <h5>PRODUCTOS PARA AVES</h5>
+                  <p>Alimentos, accesorios, juguetes, jaulas y herramientas</p>
+                </div>
+              </div>
+			  <div class="carousel-item">
+                <img class="d-block w-100" src="images/camaleon-parson (2).jpg" alt="Fourth slide">
+                <div class="carousel-caption d-none d-md-block">
+                  <h5>PRODUCTOS PARA REPTILES</h5>
+                  <p>Tanques, decoraciones para tanques y herramientas</p>
+                </div>
+              </div>
+            </div>
+            <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="sr-only">Previous</span>
+            </a>
+            <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="sr-only">Next</span>
+            </a>
+          </div>
+        </div>
+      </div>
+      <hr>
+    </div>
+	  
+	  <!-- Shipping, return y precios --> 
+    <div class="container">
+      <div class="row">
+        <div class="col-4">
+          <div class="row">
+            <div class="col-2"><img class="rounded-circle" alt="Free Shipping" src="images/delovery.png"></div>
+            <div class="col-lg-6 col-10 ml-1">
+              <h4>Envíos con tarifa</h4>
+            </div>
+          </div>
+        </div>
+        <div class="col-4">
+          <div class="row">
+            <div class="col-2"><img class="rounded-circle" alt="Free Shipping" src="images/reembolso.png"></div>
+            <div class="col-10 ml-1 col-lg-7">
+              <h4>Reembolsos gratis</h4>
+            </div>
+          </div>
+        </div>
+        <div class="col-4">
+          <div class="row">
+            <div class="col-2"><img class="rounded-circle" alt="Free Shipping" src="images/etiqueta.png"></div>
+            <div class="col-lg-6 col-10 ml-1">
+              <h4>Precios promedios</h4>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+	  
+	  <!-- Productos recomendados --> 
+    <hr>
+    <h2 class="text-center">PRODUCTOS RECOMENDADOS</h2>
+    <hr>
+    <div class="container">
+      <div class="row text-center">
+        <div class="col-md-4 pb-1 pb-md-0">
+          <div class="card">
+            <img class="card-img-top" src="images/comidaperro.png" alt="Card image cap">
+            <div class="card-body">
+              <h5 class="card-title">Alimento Super Perro Adulto - 5000gr</h5>
+              <p class="card-text">Alimento seco para perros adultos. Marca Super Perro, peso 5000gr.</p>
+              <a href="#" class="btn btn-warning">Añadir al carrito</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4 pb-1 pb-md-0">
+          <div class="card">
+            <img class="card-img-top" src="images/peluchesgatitos.png" alt="Card image cap">
+            <div class="card-body">
+              <h5 class="card-title">Peluches de gatos</h5>
+              <p class="card-text">Paquete de pequeños peluches con diseño de gatos, los cuales contienen menta de gato dentro.</p>
+              <a href="#" class="btn btn-warning">Añadir al carrito</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4 pb-1 pb-md-0">
+          <div class="card">
+            <img class="card-img-top" src="images/jaulapajaro.png" alt="Card image cap">
+            <div class="card-body">
+              <h5 class="card-title">Jaula para pájaros de 62 pulgadas</h5>
+              <p class="card-text">Jaula metaliga de 62 pulgadas para cualquier tipo de aves, con un espacio de descanso en el techo Marca Easyfashion.</p>
+              <a href="#" class="btn btn-warning">Añadir al carrito</a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="row text-center mt-4">
+        <div class="col-md-4 pb-1 pb-md-0">
+          <div class="card">
+            <img class="card-img-top" src="images/tanque.png" alt="Card image cap">
+            <div class="card-body">
+              <h5 class="card-title">Tanque para reptiles con techo deslizante</h5>
+              <p class="card-text">Tanque de 10 galones, con dimensiones: 20" x 12" x 10" para darle a tu reptil un hogar seguro.</p>
+              <a href="#" class="btn btn-warning">Añadir al carrito</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4 pb-1 pb-md-0">
+          <div class="card">
+            <img class="card-img-top" src="images/collarperro.png" alt="Card image cap">
+            <div class="card-body">
+              <h5 class="card-title">Collar Pet Mascotas Mediano</h5>
+              <p class="card-text">Collar para perros, color rojo, ajustable, de tamaño mediano, con cascabel incluído. Este puede ser para perros medianos adultos o cachorros de razas grandes.&nbsp;</p>
+              <a href="#" class="btn btn-warning">Añadir al carrito</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4 pb-1 pb-md-0">
+          <div class="card">
+            <img class="card-img-top" src="images/casitagato.png" alt="Card image cap">
+            <div class="card-body">
+              <h5 class="card-title">Árbol para gatos de tres niveles</h5>
+              <p class="card-text">Árbol con cactus para que tu gato pueda descansar, además de incluir algunos juguetes para su diversión.&nbsp;Este producto es tanto para gatitos o gatos adultos.</p>
+              <a href="#" class="btn btn-warning">Añadir al carrito</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+	  
+	  <!-- Otros productos --> 
+    <hr>
+    <h2 class="text-center">NUESTROS OTROS PRODUCTOS</h2>
+    <hr>
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-4">
+          <ul class="list-unstyled">
+            <li class="media">
+              <img class="mr-3" src="images/pelotas.png" alt="Generic placeholder image">
+              <div class="media-body">
+                <h5 class="mt-0 mb-1">Ol Roy Pelota Naranja Vinyl Toy</h5>
+                Pelota de hule para perros , color naranja con estampados de huellitas. Marca Ol' Roy
+              </div>
+            </li>
+            <li class="media my-4">
+              <img class="mr-3" src="images/megamix.png" alt="Generic placeholder image">
+              <div class="media-body">
+                <h5 class="mt-0 mb-1">Megamix para gatos adultos</h5>
+                Bolsa megamix con 7 delicosos sabores para tu gato, de 1.5kg. Marca Purina Felix.
+              </div>
+            </li>
+            <li class="media">
+              <img class="mr-3" src="images/casitaaves.png" alt="Generic placeholder image">
+              <div class="media-body">
+                <h5 class="mt-0 mb-1">Wild Wings Cedar Hopper Bird Feeder</h5>
+                Casa de pajaros de cedro con canastas de alimento a cada lado. 
+              </div>
+            </li>
+          </ul>
+        </div>
+        <div class="col-lg-4">
+          <ul class="list-unstyled">
+            <li class="media">
+              <img class="mr-3" src="images/cadena.png" alt="Generic placeholder image">
+              <div class="media-body">
+                <h5 class="mt-0 mb-1">Cuerda Para Masc Metalicas Brickell</h5>
+                Correa para perros, colla ajustable con cadena de metal. Marca Brickell.
+              </div>
+            </li>
+            <li class="media my-4">
+              <img class="mr-3" src="images/peinegato.png" alt="Generic placeholder image">
+              <div class="media-body">
+                <h5 class="mt-0 mb-1">Peine para gatos</h5>
+                Pequeño peine para el aseo de tu mascota. Fácil de remover el pelaje después de una sesión de peinado. 
+              </div>
+            </li>
+            <li class="media">
+              <img class="mr-3" src="images/calefaccion.png" alt="Generic placeholder image">
+              <div class="media-body">
+                <h5 class="mt-0 mb-1">Lámpara de cerámica para calefacción</h5>
+               Lámparas que similan calor similar a la del sol, aumentando el aire ambiente en tu terrario. 
+              </div>
+            </li>
+          </ul>
+        </div>
+        <div class="col-lg-4">
+          <ul class="list-unstyled">
+            <li class="media">
+              <img class="mr-3" src="images/cajadearena.png" alt="Generic placeholder image">
+              <div class="media-body">
+                <h5 class="mt-0 mb-1">Caja con paredes para gato</h5>
+                Una caja para arena de gato, esta tiene paredes a los lados. Incluye la pala.
+              </div>
+            </li>
+            <li class="media my-4">
+              <img class="mr-3" src="images/comidaves.png" alt="Generic placeholder image">
+              <div class="media-body">
+                <h5 class="mt-0 mb-1">Wild Harvest Universal Blend Premium Small Birds Seed</h5>
+                Bolsa de semillas premium para aves pequeñas, peso 3 lbs.
+              </div>
+            </li>
+            <li class="media">
+              <img class="mr-3" src="images/tanquegrande.png" alt="Generic placeholder image">
+              <div class="media-body">
+                <h5 class="mt-0 mb-1">Terrario con gabinetes</h5>
+                Terrario de 48 pulgadas para tu reptil, contando con gabinetes para cualquier cosas de tu mascota. Contiene ruedas.
+              </div>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+	  
+	  <!-- Contacto --> 
+    <hr>
+    <div class="container text-white bg-info p-4">
+      <div class="row">
+        <div class="col-6 col-md-8 col-lg-7">
+          <div class="row text-center">
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4 col-lg-5 col-6">
+          <address>
+            <strong>SERVICIO AL CLIENTE</strong><br>
+            2278-3043<br>
+			8734-5609<br>
+          </address>
+          <address>
+            <strong>Correo</strong><br>
+            <a>animalworld@support.com</a>
+          </address>
+        </div>
+      </div>
+    </div>
+	  
+	  <!-- Copyright --> 
+    <footer class="text-center">
+      <div class="container">
+        <div class="row">
+          <div class="col-12">
+            <p>Copyright © 2023. Animal World</p>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="js/jquery-3.4.1.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap-4.4.1.js"></script>
+  </body>
+</html>
